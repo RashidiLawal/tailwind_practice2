@@ -1,0 +1,40 @@
+body {
+    margin-top: 2rem;
+}
+
+/* p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+.con {
+    @apply text-3xl bg-indigo-700 h-40 lg:container xl:mx-auto mb-3;
+}
+
+h2{
+  @apply text-2xl text-gray-400 text-center
+}
+
+.coner {
+    @apply bg-green-400 lg:container xl:mx-auto mb-3;
+}
+
+.cone {
+    @apply flex gap-5 flex-col md:flex-row;
+}
+
+.kon {
+    @apply flex-initial font-sans bg-indigo-800 w-40 h-40 text-center text-rose-300 text-xl;
+}
+
+.conera {
+    @apply bg-blue-400 h-40 lg:container xl:mx-auto mb-3;
+}
+
+.conera1 {
+    @apply grid md:grid-cols-4 gap-2 lg:grid-cols-3 xl:grid-cols-4;
+}
+
+.conerae {
+    @apply  text-white bg-red-300 w-full h-40 text-center font-serif
+}
